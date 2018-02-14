@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Random rng = new Random();
-                int randomSide = rng.nextInt(4);
+                int randomSide = rng.nextInt(5);
                 eightball.setImageResource(ballSide[randomSide]);
             }
         });
